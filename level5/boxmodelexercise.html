@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Box Model Exercise</title>
+		<style>
+			#main {
+				width: 350px;
+				margin-top: 220px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 1em;
+				border: 1px solid #000;
+				padding: 20px;
+				background: lightblue;
+			}
+
+			.container {
+				width: 300px;
+				margin-top: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 1em;
+				border: 1px solid #000;
+				padding: 20px;
+				background: #ccc;
+			}
+
+			div:hover#container1 {
+				background-color: #ff9999;
+			}
+
+			div:hover#container2 {
+				background-color: lightgreen;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="main">
+			Content
+			<div class="container" id="container1">
+				This is some text inside the first div element and is lengthy also.
+			</div>
+			<div class="container" id="container2">
+				This is some text inside the second div element and is lengthy also.
+			</div>
+		</div>
+	</body>
+</html>
